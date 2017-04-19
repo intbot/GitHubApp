@@ -3,8 +3,31 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <ListView
-        android:id="@+id/repoListView"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <Button
+      android:id="@+id/weekButtom"
+      android:text="7 days"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight=".33" />
+    <Button
+      android:id="@+id/monthButton"
+      android:text="30 days"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight=".33" />
+    <Button
+      android:id="@+id/yearButton"
+      android:text="1 Year"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight=".33" />
+  </LinearLayout>
+  <ListView
+      android:id="@+id/repoListView"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" />
 </LinearLayout>

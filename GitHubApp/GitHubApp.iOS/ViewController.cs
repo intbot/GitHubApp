@@ -23,7 +23,7 @@ namespace GitHubApp.iOS
 				var title = string.Format ("{0} clicks!", count++);
 				Button.SetTitle (title, UIControlState.Normal);
 
-                var repos = api.GetRepos();
+                var repos = api.GetRepos(30);
             };
 		}
 

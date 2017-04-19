@@ -3,3 +3,8 @@
 ################################################################################
 
 /packages
+/GitHubApp/GitHubApp/bin
+/GitHubApp/GitHubApp/obj
+/GitHubApp/GitHubApp.Android/obj
+/GitHubApp/GitHubApp.Android/bin
+/GitHubApp/GitHubApp.iOS/obj/iPhone
